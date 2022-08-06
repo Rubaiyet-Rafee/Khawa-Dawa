@@ -1,0 +1,34 @@
+.special-food-area {
+    background-color: #ecebec;
+    .single-special-menu {
+        margin-top: 50px;
+        border: 1px solid #ddd;
+        position: relative;
+        ul {
+            padding: 10px;
+            li {
+                border-bottom: 1px solid #ddd;
+                font-weight: 600;
+                margin-top: 10px;
+                span {
+                    float: right;
+                    color: $primary_color;
+                }
+                &:last-child {
+                    border: 0;
+                    margin-top: 15px;
+                }
+            }
+        }
+        img {
+            width: 100%;
+        }
+        h6 {
+            position: absolute;
+            background-color: $primary_color;
+            top: 0;
+            color: $white_color;
+            padding: 10px;
+        }
+    }
+}

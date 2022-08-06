@@ -1,0 +1,22 @@
+.cta-bottom-area {
+    background-color: $primary_color;
+    color: $white_color;
+    .cta-bottom-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        h2 {
+            margin: 0;
+            font-weight: 600;
+        }
+        p {
+            margin: 0;
+            i {
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+
+

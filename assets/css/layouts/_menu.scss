@@ -1,0 +1,40 @@
+.our-menu {
+    background-color: #ecebec;
+    .section-title {
+        margin-bottom: 40px;
+    }
+    .single-menu {
+        background-color: #fff;
+        margin: 15px;
+        padding: 10px;
+        .menu-img {
+            display: flex;
+            img {
+                margin-right: 15px;
+                &:hover {
+                    transition: .3s ease all;
+                    border-radius: 50%;
+                }
+            }
+            .menu-content {
+                position: relative;
+                h5 {
+                    font-weight: 600;
+                    font-size: 18px;
+                    span {
+                        position: absolute;
+                        right: 0;
+                        color: $primary_color;
+                    }
+                }
+                p {
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+

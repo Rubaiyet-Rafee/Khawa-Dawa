@@ -1,0 +1,40 @@
+.blog-area {
+    background-color: #ecebec;
+    .blog {
+        margin: 0 70px;
+        .single-blog {
+            margin-top: 50px;
+            border: 1px solid #ddd;
+            img {
+                width: 100%;
+            }
+            .blog-social {
+                display: flex;
+                justify-content: space-around;
+                h6 {
+                    margin-top: 10px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    &:hover {
+                        color: $primary_color;
+                    }
+                }
+            }
+            .blog-text {
+                margin: 15px;
+                h4 {
+                    font-weight: 600;
+                }
+                p {
+                    text-align: justify;
+                }
+                a {
+                    color: $primary_color;
+                }
+            }            
+        }
+    }
+}
+
+
+

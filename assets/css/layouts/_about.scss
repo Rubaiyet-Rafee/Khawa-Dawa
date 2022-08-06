@@ -1,0 +1,106 @@
+.about-area {
+    .about-left {
+        p {
+            text-align: justify;
+            margin-top: 40px;
+        }
+        .about-btn {
+            a {
+                margin: 0;
+            }
+        }
+    }
+    .about-right {
+        position: relative;
+        .img-up {
+            img {
+                width: 80%;
+            }
+        }
+        .img-down {
+            img {
+                position: absolute;
+                width: 80%;
+                right: 0;
+                top: 120px;
+            }
+        }
+    }
+    .about-page-left {
+        .about-page-img {
+            img {
+                width: 100%;
+            }
+        }
+        .about-left-text {
+            margin-left: 20px;
+            h3 {
+                font-weight: 600;
+                position: relative;
+                margin-bottom: 25px;
+                &:before {
+                    position: absolute;
+                    content: "";
+                    width: 70px;
+                    height: 3px;
+                    background-color: $primary_color;
+                    bottom: 0;
+                }
+                &:after {
+                    position: absolute;
+                    content: "";
+                    width: 50px;
+                    height: 2px;
+                    background-color: black;
+                    bottom: -4px;
+                    left: 0;
+                }
+            }
+            p {
+                text-align: justify;
+            }
+        }
+    }
+    .about-page-right {
+        .about-page-img {
+            img {
+                width: 100%
+            }
+        }
+        margin-top: 40px;
+        .about-right-text {
+            margin-right: 20px;
+        h3 {
+            font-weight: 600;
+            position: relative;
+            margin-bottom: 25px;
+            &:before {
+                position: absolute;
+                content: "";
+                width: 70px;
+                height: 3px;
+                background-color: $primary_color;
+                bottom: 0;
+            }
+            &:after {
+                position: absolute;
+                content: "";
+                width: 50px;
+                height: 2px;
+                background-color: black;
+                bottom: -4px;
+                left: 0;
+            }
+        }
+        p {
+            text-align: justify;
+        }
+        }
+    }
+}
+
+
+
+
+
+

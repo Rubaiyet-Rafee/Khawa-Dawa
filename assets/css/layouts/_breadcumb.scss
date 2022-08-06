@@ -1,0 +1,30 @@
+.breadcumb-area {
+    .breadcumb-content {
+        position: relative;
+        padding: 70px 0 0;
+        color: $white_color;
+        h4 {
+            color: $white_color;
+            font-weight: 600;
+            font-size: 30px;
+        }
+        ul {
+            display: flex;
+            padding: 0;
+            li {
+                margin-right: 5px;
+                a {
+                    color: $white_color;
+                    font-weight: 500;
+                    font-size: 14px;
+                    &:hover {
+                        color: $primary_color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

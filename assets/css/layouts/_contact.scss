@@ -1,0 +1,119 @@
+.contact-area {
+    .contact-left {
+        h4 {
+            font-size: 25px;
+            position: relative;
+            font-weight: 600;
+            margin-bottom: 30px;
+            &:before {
+                position: absolute;
+                content: "";
+                width: 60px;
+                height: 3px;
+                background-color: $primary_color;
+                bottom: 0;
+            }
+            &:after {
+                position: absolute;
+                content: "";
+                width: 40px;
+                height: 2px;
+                background-color: black;
+                bottom: -4px;
+                left: 0;
+            }
+        }
+        input {
+            background-color: #e5dede4a;
+            margin-top: 10px;
+            width: 100%;
+            padding: 10px;
+            border: 0;
+            &[type="submit"]{
+                border: 0;
+                color: $white_color;
+                background-color: $primary_color;
+                transition: .3s ease all;
+                &:hover {
+                    background-color: $white_color;
+                    color: $primary_color;
+                    cursor: pointer;
+                }
+            }
+        }
+        textarea {
+            margin-top: 10px;
+            background-color: #e5dede4a;
+            width: 100%;
+            padding: 10px;
+            height: 100px;
+            border: 0;
+        }
+    }
+    .contact-right {
+        margin-left: 50px;
+        h4 {
+            position: relative;
+            font-size: 25px;
+            font-weight: 600;
+            margin-bottom: 40px;
+            &:before {
+                position: absolute;
+                content: "";
+                width: 60px;
+                height: 3px;
+                background-color: $primary_color;
+                bottom: 0;
+            }
+            &:after {
+                position: absolute;
+                content: "";
+                width: 40px;
+                height: 2px;
+                background-color: black;
+                bottom: -4px;
+                left: 0;
+            }
+        }
+        ul {
+            padding: 0;
+            li {
+                display: flex;
+                margin-bottom: 30px;
+                align-items: center;
+                i {
+                    margin-right: 10px;
+                    border: 1px solid $primary_color;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    color: $primary_color;
+                    &:hover{
+                        color: #333;
+                    }
+                }
+                h6 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin: 0;
+                    span {
+                        display: block;
+                        font-size: 15px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+    iframe {
+        width: 100%;
+        border: 1px solid #ddd;
+        padding: 2px;
+        height: 400px;
+        vertical-align: middle;
+    }
+}
+
+
+

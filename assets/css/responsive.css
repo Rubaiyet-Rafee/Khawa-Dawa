@@ -1,0 +1,221 @@
+ /* X-Small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+    .header img {
+        width: 90%;
+    }
+    .banner-area .single-banner .banner-content h5 {
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .ml-100 {
+        margin-left: 0px;
+    }
+    .ml-100 {
+        margin-right: 0px;
+    }
+}
+
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .header img {
+        width: 90%;
+    }
+    .banner-area .single-banner .banner-content h5 {
+        font-size: 17px;
+    }
+    .banner-area .single-banner .banner-content h1 {
+        font-size: 35px;
+    }
+    .box-btn {
+        font-size: 13px;
+        display: block;
+        margin: 16px;
+    }
+    .banner-area button.slick-arrow {
+        font-size: 13px;
+    }
+    .section-title h3 {
+        font-size: 25px;
+    }
+    .section-title h5 {
+        font-size: 18px;
+    }
+    .about-area .about-left p {
+        font-size: 13px;
+    }
+    .our-menu .single-menu .menu-img .menu-content h5 {
+        font-size: 16px;
+    }
+    .our-menu .single-menu .menu-img .menu-content p {
+        font-size: 13px;
+    }
+    .top-cta-area .top-cta-area-content h3 {
+        font-size: 23px;
+    }
+    .top-cta-area .top-cta-area-content h3 span {
+        font-size: 22px;
+    }
+
+    footer {
+        text-align: center;
+    }
+    footer .footer-logo {
+        margin-bottom: 20px;
+    }
+    footer .opening-hours {
+        margin-bottom: 20px;
+    }
+    footer .footer-bottom-copyright h6 {
+        text-align: center;
+    }
+    footer {
+        padding: 0;
+    }
+    footer .footer-logo {
+        margin-top: 40px;
+        position: relative;
+    }
+    footer .footer-bottom-social {
+        padding: 10px 0;
+        margin: 10px;
+    }
+    footer .footer-bottom-copyright {
+        margin: 0;
+    }
+}
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  
+    .about-area .about-right .img-down img {
+        width: 56%;
+    }
+    .our-menu {
+        padding: 0px 0 20px 0;
+    }
+    .our-menu .section-title {
+        margin-bottom: 20px;
+    }
+    .our-menu .single-menu .menu-img .menu-content h5 {
+        font-size: 16px;
+    }
+    .top-cta-area .top-cta-area-content {
+        padding: 20px;
+    }
+    .top-cta-area .top-cta-area-content h3 {
+        font-size: 25px;
+    }
+    .services-area .single-service {
+        margin-top: 40px;
+    }
+    .team-area .single-team {
+        margin-top: 40px;
+    }
+    .testimonial-area .testimonials {
+        margin: 20px 0;
+    }
+    .testimonial-area .testimonials .single-testimonial p {
+        font-weight: 400;
+    }
+    .special-food-area {
+        padding: 50px 0;
+    }
+    .special-food-area .single-special-menu {
+        margin-top: 40px;
+    }
+    .blog-area .blog {
+        margin: 0;
+    }
+    .blog-area .blog .single-blog .blog-social h6 {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .blog-area .blog .single-blog {
+        margin-top: 40px;
+    }
+    .contact-area .contact-left h4 {
+        position: relative;
+        text-align: center;
+    }
+    .contact-area .contact-left h4::before {
+        position: absolute;
+        content: "";
+        width: 60px;
+        height: 3px;
+        background-color: #ff0000;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .contact-area .contact-left h4::after {
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 2px;
+        background-color: black;
+        bottom: -4px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .contact-area .contact-right h4 {
+        position: relative;
+        text-align: center;
+    }
+    .contact-area .contact-right h4::before {
+        position: absolute;
+        content: "";
+        width: 60px;
+        height: 3px;
+        background-color: #ff0000;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .contact-area .contact-right h4::after {
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 2px;
+        background-color: black;
+        bottom: -4px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .contact-area .contact-right {
+        margin-top: 30px;
+    }
+    .ml-100 {
+        margin-left: 0px;
+    }
+    .ml-100 {
+        margin-right: 0px;
+    }
+    footer .quick-links {
+        position: relative;
+        padding-bottom: 30px;
+    }
+}
+
+ /* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  
+    .our-menu .single-menu .menu-img .menu-content h5 {
+        font-size: 17px;
+    }
+    .menu-right .single-menu:last-child h5 span {
+        display: block;
+    }
+    .menu-right .single-menu:last-child .menu-content p {
+        margin-top: 30px;
+    }
+}
+
+ /* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  
+
+}
+
+ /* XX-Large devices (larger desktops) */
+ /* No media query since the xxl breakpoint has no upper bound on its width */
+
+
+
+
+
