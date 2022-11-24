@@ -7,6 +7,13 @@
         font-size: 18px;
         text-transform: uppercase;
     }
+    .about-right {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .our-menu .section-title {
+        margin-top: 50px;
+    }
     .ml-100 {
         margin-left: 0px;
     }
@@ -42,6 +49,9 @@
     }
     .about-area .about-left p {
         font-size: 13px;
+    }
+    .about-right {
+        margin-bottom: 30px;
     }
     .our-menu .single-menu .menu-img .menu-content h5 {
         font-size: 16px;
